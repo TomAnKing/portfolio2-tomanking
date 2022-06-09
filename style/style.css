@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1c393d;
+}
+
+nav {
+    background-color: #10272b;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+    font-size: 24px;
+    padding: 1em;
+    margin-left: 2em;
+    margin-top: 0;
+    color: white;
+}
+
+p {
+    font-size: 12px;
+    width: 90%;
+    margin: auto;
+}
+
+.projects {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+a {
+  text-decoration: none;
+  background-color: darkcyan;
+  padding: 1em;
+  color: white;
+  display: inline-flex;
+  text-align: center;
+  margin-top: 1em;
+  border-radius: 0.5em;
+}
+
+a > p {
+    font-size: 22px;
+    width: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+
+
+.projectCard {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 1em;
+  overflow: hidden;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70px;
+    width: 80%;
+    margin: auto;
+}
+
+.cardBtns {
+    text-align: center;
+}
+
+
+@media (max-width: 1300px) {
+    .projects {
+    grid-template-columns: 1fr 1fr;
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+    .projects {
+    grid-template-columns: 1fr;
+    width: 100%;
+    }
+    ul {
+        text-align: center;
+        margin: 0;
+    }
+}
