@@ -163,6 +163,15 @@ h2 {
     ul {
         text-align: center;
         margin: 0;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
     }
     footer {
         display: block;
@@ -176,10 +185,12 @@ h2 {
         float: right;
     margin-right: 2%;
     margin-top: 1em;
+    font-size: 14px;
     }
     #footerEmail {
         float: left;
     margin-left: 2%;
     margin-top: 1em;
+    font-size: 14px;
     }
 }
